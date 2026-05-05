@@ -23,17 +23,16 @@ Impact: Reduced query runtime from 45 min → under 3 min
 🔗 [View Project](portfolio/project-azure-sql-optimization/README.md)
 
 
-
 3. SQL Query Optimization & Index Tuning
 Tech: SQL Server, Execution Plans
 Impact: Improved reporting pipeline performance by 60–80%
-🔗[View Prject](portfolio/project-data-model-etl/README.md)
+🔗[View Project](portfolio/project-data-model-etl/README.md)
 
 
 5. Sales Performance Dashboard (Power BI / Tableau)
 Tech: Power BI, Tableau, SQL
 Impact: Enabled real‑time insights for field teams
-
+🔗[View Project](portfolio/project-data-model-etl/README.md)
 
 6. Enterprise Data Model & ETL Pipeline
 Tech: SQL Server, Azure SQL, Python
