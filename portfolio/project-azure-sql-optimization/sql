@@ -1,1 +1,30 @@
+-- Identify top resource-consuming queries using Query Store
+SELECT TOP 20
+    qsqt.query_sql_text,
+    qsq.count_executions,
+    qsp.avg_duration,
+    qsp.avg_cpu_time,
+    qsp.avg_logical_io_reads
+FROM sys.query_store_query_text qsqt
+JOIN sys.query_store_query qsq ON qsqt.query_text_id = qsq.query_text_id
+JOIN sys.query_store_plan qsp ON qsq.query_id = qsp.query_id
+ORDER BY qsp.avg_duration DESC;
+
+-- Example of optimized query using proper indexing and filtering
+SELECT 
+    c.CustomerID,
+    SUM(s.SalesAmount) AS TotalSales,
+    COUNT(*) AS TransactionCount
+FROM dbo.SalesFact s
+JOIN dbo.CustomerDim c ON s.CustomerKey = c.CustomerKey
+WHERE s.SaleDate >= DATEADD(DAY, -30, GETDATE())
+  AND c.Region = 'South'
+GROUP BY c.CustomerID;
+
+
+-- Recommended covering index
+CREATE INDEX IX_SalesFact_SaleDate_Region
+ON dbo.SalesFact (SaleDate)
+INCLUDE (CustomerKey, SalesAmount);
+
 
