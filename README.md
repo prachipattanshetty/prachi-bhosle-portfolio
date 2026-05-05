@@ -43,8 +43,7 @@ Impact: Built unified reporting layer for business teams
 5. SQL Server Health Check & Diagnostics Framework
 Tech: SQL Server, DMVs, PowerShell
 Impact: Reduced production incidents and improved stability
-🔗[View Project](portfolio/project-sql-query-tuning/README.md)
-
+🔗[View Project](portfolio/project-sql-server-healthcheck/README.md)
 
 **Contact**
 📧 prachi.pattanshetty@gmail.com  
