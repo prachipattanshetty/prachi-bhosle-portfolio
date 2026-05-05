@@ -20,7 +20,8 @@ This portfolio showcases real projects based on my professional experience.
 1. Azure SQL Performance Optimization (5B+ Rows)
 Tech: Azure SQL, T‑SQL, Query Store
 Impact: Reduced query runtime from 45 min → under 3 min
-Link: 🔗 [View Project](portfolio/project-azure-sql-optimization/README.md)
+🔗 [View Project](portfolio/project-azure-sql-optimization/README.md)
+
 
 
 3. SQL Query Optimization & Index Tuning
