@@ -32,14 +32,15 @@ Impact: Improved reporting pipeline performance by 60–80%
 5. Sales Performance Dashboard (Power BI / Tableau)
 Tech: Power BI, Tableau, SQL
 Impact: Enabled real‑time insights for field teams
-🔗[View Project](portfolio/project-data-model-etl/README.md)
+🔗[View Project](portfolio/project-sales-performance-dashboard/README.md)
 
 6. Enterprise Data Model & ETL Pipeline
 Tech: SQL Server, Azure SQL, Python
 Impact: Built unified reporting layer for business teams
+🔗[View Project](portfolio/project-sales-performance-dashboard/README.md)
 
 
-7. SQL Server Health Check & Diagnostics Framework
+8. SQL Server Health Check & Diagnostics Framework
 Tech: SQL Server, DMVs, PowerShell
 Impact: Reduced production incidents and improved stability
 
