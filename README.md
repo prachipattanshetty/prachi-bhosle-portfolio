@@ -1,4 +1,4 @@
-Welcome! I’m Prachi, a SQL Server DBA and Data Analyst with 10+ years of experience building high‑performance, reliable, and scalable data systems.
+Welcome! I’m Prachi, a SQL Server DBA and Data Analyst with 5+ years of experience building high‑performance, reliable, and scalable data systems.
 
 My work spans:
 
